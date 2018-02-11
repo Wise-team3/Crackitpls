@@ -23,5 +23,4 @@
         app:itemTextAppearance="@style/TextAppearance.AppCompat.Button"
         app:itemTextColor="#a740db"
         app:menu="@menu/activity_main_drawer" />
-
 </android.support.v4.widget.DrawerLayout>
