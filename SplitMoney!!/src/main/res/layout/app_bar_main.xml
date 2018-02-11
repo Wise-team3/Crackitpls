@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.yoshita.navigation.MainActivity">
+    tools:context="com.example.yoshita.navigation.MainActivity"
+    android:background="#f5f1c8">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -28,7 +29,7 @@
         android:layout_height="50dp"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/group"
+        android:src="@drawable/compose"
         app:backgroundTint="@color/colorPrimaryDark"
         tools:layout_editor_absoluteX="302dp"
         tools:layout_editor_absoluteY="50dp" />

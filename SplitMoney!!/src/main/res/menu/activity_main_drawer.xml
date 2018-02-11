@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:title="Contacts" />
+            android:id="@+id/cse"
+            android:title="CSE" />
         <item
-            android:id="@+id/nav_gallery"
-            android:title="Self" />
+            android:id="@+id/ece"
+            android:title="ECE" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:title="Given" />
+            android:id="@+id/ee"
+            android:title="EEE" />
         <item
-            android:id="@+id/nav_manage"
-            android:title="Taken" />
+            android:id="@+id/civil"
+            android:title="CIVIL" />
     </group>
+    <item
+        android:id="@+id/mech"
+        android:title="MECH" />
 
 </menu>

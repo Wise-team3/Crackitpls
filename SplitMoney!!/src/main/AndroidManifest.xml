@@ -22,18 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ContactsPickerActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            >
-
-        </activity>
         <activity android:name=".Main3Activity" />
         <activity android:name=".Main4Activity" />
         <activity android:name=".Main5Activity" />
         <activity android:name=".Main6Activity" />
-        <activity android:name=".Main7Activity"></activity>
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".Main8Activity"></activity>
     </application>
 
 </manifest>

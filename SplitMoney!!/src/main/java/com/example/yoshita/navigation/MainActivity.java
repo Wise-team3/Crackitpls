@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
             //            .setAction("Action", null).show();
-                Intent i=new Intent(MainActivity.this,Main3Activity.class);
+                Intent i=new Intent(MainActivity.this,Main8Activity.class);
                 startActivity(i);
             }
         });
@@ -83,20 +83,24 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // contacts
+        if (id == R.id.cse) {
+
+            Intent i=new Intent(MainActivity.this,Main3Activity.class);
+            startActivity(i);
+        } else if (id == R.id.ece) {
+
             Intent i=new Intent(MainActivity.this,Main4Activity.class);
             startActivity(i);
-        } else if (id == R.id.nav_gallery) {
-//self
+        } else if (id == R.id.ee) {
+
             Intent i=new Intent(MainActivity.this,Main5Activity.class);
             startActivity(i);
-        } else if (id == R.id.nav_slideshow) {
-//given
+        } else if (id == R.id.civil) {
             Intent i=new Intent(MainActivity.this,Main6Activity.class);
             startActivity(i);
-        } else if (id == R.id.nav_manage) {
-//taken
+        }
+        else if (id == R.id.mech) {
+
             Intent i=new Intent(MainActivity.this,Main7Activity.class);
             startActivity(i);
         }
