@@ -4,22 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/cse"
-            android:title="CSE" />
-        <item
-            android:id="@+id/ece"
-            android:title="ECE" />
-        <item
-            android:id="@+id/ee"
-            android:title="EEE" />
-        <item
-            android:id="@+id/civil"
-            android:title="CIVIL" />
-    </group>
+    <group android:checkableBehavior="single"></group>
     <item
-        android:id="@+id/mech"
-        android:title="MECH" />
+        android:id="@+id/company"
+        android:title="COMPANY" />
+    <item
+        android:id="@+id/topics"
+        android:title="TOPICS" />
+    <item
+        android:id="@+id/branches"
+        android:title="BRANCHES" />
+
 
 </menu>

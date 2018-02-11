@@ -83,19 +83,19 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.cse) {
+        if (id == R.id.company) {
 
             Intent i=new Intent(MainActivity.this,Main3Activity.class);
             startActivity(i);
-        } else if (id == R.id.ece) {
+        } else if (id == R.id.topics) {
 
             Intent i=new Intent(MainActivity.this,Main4Activity.class);
             startActivity(i);
-        } else if (id == R.id.ee) {
+        } else if (id == R.id.branches) {
 
             Intent i=new Intent(MainActivity.this,Main5Activity.class);
             startActivity(i);
-        } else if (id == R.id.civil) {
+        }/* else if (id == R.id.civil) {
             Intent i=new Intent(MainActivity.this,Main6Activity.class);
             startActivity(i);
         }
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity
 
             Intent i=new Intent(MainActivity.this,Main7Activity.class);
             startActivity(i);
-        }
+        }*/
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
